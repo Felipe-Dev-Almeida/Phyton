@@ -7,6 +7,19 @@
 precocompra = float(input("Digite o preço de compra do produto: R$ "))
 percentual = float(input("Digite o percentual de lucro desejado: "))
 
+#aumento.
+print("")
+print("")
+print("|******************************|")
+print("|******************************|")
+print("|      Programa reajuste       |")
+print("|         Versão 1.0           |")
+print("|******************************|")
+print("")
+print("")
+
+
+
 precovenda = precocompra + (precocompra * percentual / 100)
 
 print("\n===== PREÇO DO PRODUTO =====")
